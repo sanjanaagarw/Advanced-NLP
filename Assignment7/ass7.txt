@@ -1,0 +1,21 @@
+0.
+
+[Nothing to turn in:] As not promised in the syllabus, I'm going to leave a lot of your final assignment up to you, i.e. make it more of a (small) project, applying NLP techniques to whatever domain you are most interested in. For now, I simply want you to start thinking about possible topics. On the next (or next+1) assignment, I'll give a bit more guidance. This will not be a very large project, but I want it to be something you'll enjoy.
+
+ 
+
+1.
+
+Context: Pretend you're working for a company that wants to investigate the feasibility of doing sentiment analysis and they're giving you one day to dig into it, see what the challenges are, and estimate how much time it will take for varying system qualities (e.g. "Spending 2 days doing X may increase accuracy to an acceptable level, and spending 2 weeks more will only get small gains").
+
+Task: In groups of 1-4 people, spend 5-6 hours per person doing some combination of digging into data, skimming the literature, and building baby document-level sentiment analysis tools (focusing only on a binary positive/negative decision).
+
+You're free to assume that the company is interested in a particular side of sentiment analysis, which happens to coincide with your own interests. In fact, it will help you to make such an assumption and only narrow in on one part of the larger task (e.g. the company wants to develop a particular lexicon or focus on particular types of aspects or whatever else). In other words, you can focus on approaches and problems that intrigue you from the reading and from classroom discussion.
+
+You are free to find and choose other data sets, but a good starting point would to use the Movie Review Data found at: http://www.cs.cornell.edu/people/pabo/movie-review-data/ (Links to an external site.) or http://ai.stanford.edu/~amaas/data/sentiment/ (Links to an external site.) for your data digging and initial experimentation.
+There is no strict implementation requirement here, but note that the further you get with implementing, the stronger estimates you'll have about things like time and quality.
+Feel free to use the CoreNLP, NLTK, or MALLET tools for things like input features.
+How to calculate your hours?
+Things like reading the paper assigned for class do not count ... but exploring techniques only briefly mentioned in class do. Ask yourself: if a boss hired me to do this and asked me to track my time, what would I feel comfortable reporting?
+If you have a team of three people meeting for an hour, that counts as one hour each. To maximize your time, you'll likely want to have a mix of group and individual time.
+In addition to a description of your approach, problems encountered etc., your report should include a summary of how time was spent on the project and of course an outline of the next tasks to complete and how long you estimate each one will take.

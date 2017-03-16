@@ -1,0 +1,28 @@
+1. (exercise 2.3, page 59) Compute the probability of the event
+
+"A period occurs after a three-letter word and this period indicates an abbreviation,"
+
+assuming the following probabilities:
+(1)   a.   P(is-abbreviation | three-letter-word) = 0.8
+        b.   P(three-letter-word) = 0.0003
+
+ 
+
+2. (exercise 2.4, page 59) Are X and Y as defined in the following table independently distributed?
+
+x	0	0	1	1
+y	0	1	0	1
+p(X=x,Y=y)	0.32	0.08	0.48	0.12
+ 
+
+3. Conditional Probability:
+
+a. If two fair dice are rolled, what is the conditional probability that at least one lands on 1 given that the dice land on different numbers?.
+
+b. A bin contains 25 light bulbs, 5 of which are in good condition and will function for at least 30 days, 10 of which are partially defective and will fail in their second day of use, and 10 of which are totally defective and will not light up. Given that a randomly chosen bulb initially lights what is the probability that it will still be working after one week?
+
+ 
+
+4. Bayes Theorem:
+British and American spelling are `rigour' and `rigor', respectively. A man staying at a Parisian hotel writes this word, and a letter taken at random from his spelling is found to be a vowel. If 40% of the English-speaking men at the hotel are British and 60% are Americans, what is the probability that the writer is British?
+

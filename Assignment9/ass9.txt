@@ -1,0 +1,28 @@
+This assignment was locked Nov 28, 2016 at 11:59pm.
+Pick one of the following pieces of software to use, to extend from the topics discussed in class:
+
+The Berkeley parser: https://github.com/slavpetrov/berkeleyparser (broader overview:
+http://nlp.cs.berkeley.edu/software.shtml) (Links to an external site.)
+SenseLearner or GWSD: https://web.eecs.umich.edu/~mihalcea/downloads.html
+word2vec: https://code.google.com/p/word2vec/ (note that other implementations are
+available online, e.g., for Python)
+SENNA: http://ml.nec-labs.com/senna/ (Links to an external site.)
+or if you'd like to petition to use some other software related to the last parts of the course,
+ask me.
+1. Explain, in approximately half-a-page, what the software does, i.e., what the problem is that it's trying to solve, and how it goes about solving it. What does it do that other tools don't (or didn't) do? You will likely have to read an associated publication or two.
+
+
+2. Use the tool in some way that points to a greater purpose. In other words: get it working with data that you actually care about and for a downstream purpose that interests you. In half a page or so, report on how the tool is to be used for that purpose. Be sure to discuss how to evaluate the effectiveness of the tool for your purpose.
+
+
+3. In a page or so, give a brief \consumer report" on the software. What options does it have? What does it lack? What does it have that you want, but isn't immediately obvious? What is the difficulty of use, in general and for your purpose? What could be improved, either from a scientific or a more pragmatic perspective?
+
+Submission
+ Turned In!
+Nov 28, 2016 at 11:23pm
+Submission Details
+Download Assignment9.zip
+Grade: 10 (10 pts possible)
+Graded Anonymously: no
+Comments:
+No Comments

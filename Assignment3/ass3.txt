@@ -1,0 +1,38 @@
+This assignment is sort of the course in reverse: we will use NLP tools others have built, so we can get a grasp on:
+
+a) What the linguistic distinctions are that we're trying to create this semester, and
+
+b) how they can be useful. I strongly encourage you to work in groups of 2 to 4 (or more) for this assignment (and you need only turn in one report for the group, identifying the group, and each of you submitting the report individually). I also strongly encourage you to have fun. If you sense any form of difficulty, consult with me, your colleagues, other people, the TA for the course. So, if you encounter any difficulties, please email me ASAP. I am at a conference in Toronto till Sunday, but I will be online most of the time and I can help you remotely. Contact our TA, if you need urgent help. I will leave Skype and Hangouts on and we can use that to communicate as well.
+
+ 
+
+(a) Grab two novel-length English works of fiction (e.g., from http://www.gutenberg.org (Links to an external site.) where I took the House of Pomegranates from) and set one aside for development and one for testing. Report which texts you're using and to what extent they are similar to or different from each other. Make sure the text contains dialogue in some fashion.
+
+
+(b) Download and install the Stanford CoreNLP suite of tools (http://stanfordnlp.github.io/CoreNLP/). You may use any of the CoreNLP tools except for the relation (RelationExtractorAnnotator) component. Make sure you can apply the tools to your development text and report any difficulties. See for details the Usage and command line section at the CoreNLP URL above. As I already demonstrated in class, you can use the CoreNLP tools via command line. There is a documentation on the website. You will need a Java Runtime installed on your system to be able to run Core NLP. To install a Java Runtime, consult the following pages:
+
+- on Mac: https://java.com/en/download/help/mac_install.xml (Links to an external site.)
+
+- on Windows: https://java.com/en/download/help/windows_manual_download.xml (Links to an external site.)
+
+- on Ubuntu 64-bit: https://java.com/en/download/help/linux_x64_install.xml
+
+- on Fedora: https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora (Links to an external site.)
+
+
+(c) Comb over the development text, with the Stanford annotations added, in order to
+identify (manually, semi-automatically, and eventually fully automatically) when one
+character is speaking to another. Specifically, your goal is to extract relations of the
+form speak(X,Y), where X and Y are characters. (You are allowed to leave X and/or Y
+unspecified in some cases, noting that these are cases you would eventually like to make
+fully specific.)
+
+Thus, you will be looking for patterns that help make this determination, probably
+across a range of verbs, styles of quoting, etc. How do you identify that somebody is speaking with or to somebody else given the linguistic analysis? (I expect that you'll minimally find the lemma, Name Entities Recognizer (ner), Coreferences (using the Deterministic Coreference Annotator dcoref), and the Dependency Parser deppparse components to be useful.) Report both on your process in creating patterns and your specific list of patterns.
+
+
+(d) Run your CoreNLP processing pipeline over the test data. Report in a table the total frequencies with which, according to your system, the different characters are speaking to each other.
+
+
+(e) As a final part of the report, add a note on what you would do if you had more time to
+make the system better.

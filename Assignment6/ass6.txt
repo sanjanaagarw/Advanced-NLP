@@ -1,0 +1,65 @@
+You are encouraged to work in groups for this assignment, but should turn in your own individual work.
+
+a.) Pick some topic modeling software, e.g., one of the following, and get it working:
+
+i. MALLET (Java-based, for Windows, Macs and Linux; requires a Java Runtime on the system):
+
+http://mallet.cs.umass.edu/topics.php (Links to an external site.)
+
+ii. Stanford Topic Modeling Toolbox:
+
+http://nlp.stanford.edu/software/tmt/tmt-0.4/ (Links to an external site.)
+
+iii. David Blei's lab:
+
+https://www.cs.princeton.edu/~blei/topicmodeling.html (Links to an external site.)
+
+ iv. One R package:
+
+https://cran.r-project.org/web/packages/topicmodels/index.html (Links to an external site.)
+
+Note that there are a fair amount of resources on using this software, e.g.:
+
+The Historian's Macroscope  (MALLET & R tutorials):
+
+http://www.themacroscope.org/?page_id=553 (Links to an external site.)
+
+Getting Started with Topic Modeling and MALLET:
+
+http://programminghistorian.org/lessons/topic-modeling-and-mallet (Links to an external site.)
+
+Topic Modeling for Humanists: A Guided Tour:
+
+http://www.scottbot.net/HIAL/?p=19113 (Links to an external site.)
+
+ 
+
+b.) Pretend you are a social scientist or a humanities scholar and come up with some rough question you want to investigate. Gather a small amount of appropriate data and run the topic modeling software on that data, to learn the models.
+
+ 
+
+c.) Investigate the output of the tool and give a brief assessment. Do the topics (i.e., the most frequent words) make sense? Can you see the documents annotated in a way that helps answer your question? Do any mistakes in the output connect with what you know about how the system is working? If you were a non-computer-savvy social scientist, what would have been the most significant barriers to using the software (if any)?
+
+ 
+
+Working with MALLET, more or less following the Programming Historian tutorial, or see the MALLET Quick Start (http://mallet.cs.umass.edu/quick-start.php (Links to an external site.)):
+
+1. Download .tar.gz  or .zip  le from: http://mallet.cs.umass.edu/download.php
+
+2. Unpack (e.g., tar xvf mallet-2.0.8RC2.tar ) and change directory (e.g., cd mallet-2.0.8BRC2/ )
+
+3. [extra steps for Windows users]
+
+4. ./bin/mallet  shows a bunch of commands
+
+5. Get help  on options: e.g.
+
+./bin/mallet import-dir --help
+
+ 6. Import the data:
+
+./bin/mallet import-dir --input sample-data/web/en/  --output tutorial.mallet --keep-sequence --remove-stopwords
+
+ 7. Model topics:
+
+/bin/mallet train-topics --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt

@@ -1,0 +1,30 @@
+As mentioned, for your final assignment, you'll be doing a mini-project, with many of the parameters left up to you to fill in. These were some example cases listed in the last assignment:
+
+Implement and use a technique described in class (e.g. probabilistic chart parsing, Hidden Markov Model) for some task you are interested in
+Use the tools we have discussed for some purpose of your own interest (e.g., parsing for
+sentiment analysis)
+Develop or improve upon a technique described in class assignments (e.g., sentiment analysis)
+Continue one of your earlier projects, expanding it out into something bigger and better.
+Your project (and thus the write-up of the project) should more specifically do the following:
+
+Have a clear purpose, i.e. motivation: how will what you're doing make the world better? (the world of NLP, the world of some application domain, the world at large, ...)
+Have a clear long-term goal: what are you setting out to accomplish for the future, given more time and effort?
+Have a clear short-term goal: what is it that you set out to accomplish this semester, and how will that accomplishment put you closer to your long-term goal? (Note that being closer could mean having a better understanding of what doesn't work.)
+Have a clear implementation: what did you actually do, and how did it achieve your short-term goal(s)?
+Note: I don't need to see code within your write-up (though, relevant bits can illustrate a point), but I want to know what approach you took, what difficulties you encountered, what solutions you came up with, what your results are & what they illustrate, etc.
+Have a clear evaluation: how can you tell whether you did what you wanted to do or not,
+and how can you tell whether you're moving closer to your long-term goals?
+Have a clear connection to the literature: where does your project t in the NLP world?
+Have a clear connection to this class: where does your project t into the scope of things we
+have covered?
+Essentially, you are simultaneously writing a research prospectus and doing the legwork to
+determine whether and how your prospectus is feasible. Remember that this is a mini-project, so
+it will not be exhaustive in scope; rather, the mindset is to put yourself in a good position to do
+more exhaustive work after the semester.
+
+
+Specific requirements to turn in via Canvas:
+
+A paper, approximately 5 pages per person in your group. (I'm happy with longer papers,
+too.) The paper will be the focus of my grading, so make sure it is self-contained.
+Any associated implementation files that could help me understand what is happening.

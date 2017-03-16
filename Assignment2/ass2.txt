@@ -1,0 +1,21 @@
+1. In the slides, we calculated the entropy for a fair 8-sided die. Let’s assume that this 8-sided die is not actually fair, but instead has this distribution:
+
+1	2	3	4	5	6	7	8
+1/8	1/16	1/4	1/8	1/16	1/16	1/4	1/16
+What is the entropy of this distribution?
+
+ 
+
+2. With the text below, do the following:
+
+2.1. Calculate the probabilities of the letters (approximated by their relative frequencies). Ignore punctuation signs and numbers. Treat upper case and lower case letters as equal (e.g. normalize the text). You can find the text in the Canvas files section as composers.txt.
+
+2.2 Come up with a random variable/bit encoding for the letters and write it down. How many digits do you need?
+
+2.3Calculate the Variance of this code.
+
+Bach was the most famous composer in the world, and so was Handel. Handel was half German, half Italian and half English. He was very large. Bach died from 1750 to the present. Beethoven wrote music even though he was deaf. He was so deaf he wrote loud music. He took long walks in the forest even when everyone was calling for him. Beethoven expired in 1827 and later died for this.
+
+3. Download the SUSANNE corpus at:
+http://www.grsampson.net/Resources.html (Links to an external site.)
+For one of the four sub-corpora (A, G, J, N), write a program in a language of your choice which calculates the entropy of part-of-speech (POS) tags in the data (H(POS)).

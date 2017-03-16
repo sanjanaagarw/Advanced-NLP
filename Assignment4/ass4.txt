@@ -1,0 +1,42 @@
+Tasks 1.-4., 6 problems or tasks
+
+1. FSA
+
+Consider the following finite-state automaton:
+
+homework4.png
+
+(a) Encode the FSA in terms of matrices, including initial and final states. (This is the transition matrix!)
+
+ 
+
+(b) Describe the language that is accepted by the FSA as a regular expression.
+
+ 
+
+2. Markov Chains
+
+There are three telephone lines, and at any given moment 0, 1, 2 or 3 of them can be busy. Once every minute we will observe how many of them are busy. This can be described as a (finite) Markov chain by assuming that the number of busy lines will depend only on the number of lines that were busy the last time we observed them, and not on the previous history.
+
+Use the following matrices to answer the following questions. You can use online matrix multipliers
+(e.g., http://wims.unice.fr/wims/en_tool~linear~matmult.html). Please explain your answers.
+
+ MarkovChainMatrix_HW4.png
+
+ 
+
+(a) What is the probability that after 4 steps exactly 3 lines are busy?
+
+(b) What number of lines being busy has the highest probability after 4 steps?
+
+ 
+
+3. POS Tagging
+
+Consider the transition network for the sentence time flies like an arrow and the conditional probabilities reading them from the Brown corpus using the methods that we discussed in class, see also the iPython tutorial (URL available, code in the code section). From these, calculate the most likely sequence.
+
+ 
+
+4. Read Ranaparkhi (1996):
+
+http://aclweb.org/anthology/W/W96/W96-0213.pdf (Links to an external site.) and explain, in half-a-page or so, how the tagger works, roughly speaking, and how entropy is being employed.
